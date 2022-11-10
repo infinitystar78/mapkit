@@ -14,6 +14,7 @@
 		CE2AAC04291CFFC4009B4FB3 /* MapKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC03291CFFC4009B4FB3 /* MapKitDemoTests.swift */; };
 		CE2AAC0E291CFFC4009B4FB3 /* MapKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC0D291CFFC4009B4FB3 /* MapKitDemoUITests.swift */; };
 		CE2AAC10291CFFC4009B4FB3 /* MapKitDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC0F291CFFC4009B4FB3 /* MapKitDemoUITestsLaunchTests.swift */; };
+		CE2AAC1F291D01A0009B4FB3 /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC1E291D01A0009B4FB3 /* PointsOfInterest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CE2AAC09291CFFC4009B4FB3 /* MapKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2AAC0D291CFFC4009B4FB3 /* MapKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitDemoUITests.swift; sourceTree = "<group>"; };
 		CE2AAC0F291CFFC4009B4FB3 /* MapKitDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE2AAC1E291D01A0009B4FB3 /* PointsOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		CE2AABF1291CFFC2009B4FB3 /* MapKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE2AAC1D291D0172009B4FB3 /* Models */,
 				CE2AABF2291CFFC2009B4FB3 /* MapKitDemoApp.swift */,
-				CE2AABF4291CFFC2009B4FB3 /* ContentView.swift */,
+				CE2AAC1C291D0162009B4FB3 /* Views */,
 				CE2AABF6291CFFC4009B4FB3 /* Assets.xcassets */,
 				CE2AABF8291CFFC4009B4FB3 /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				CE2AAC0F291CFFC4009B4FB3 /* MapKitDemoUITestsLaunchTests.swift */,
 			);
 			path = MapKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE2AAC1C291D0162009B4FB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AABF4291CFFC2009B4FB3 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE2AAC1D291D0172009B4FB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AAC1E291D01A0009B4FB3 /* PointsOfInterest.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2AABF5291CFFC2009B4FB3 /* ContentView.swift in Sources */,
+				CE2AAC1F291D01A0009B4FB3 /* PointsOfInterest.swift in Sources */,
 				CE2AABF3291CFFC2009B4FB3 /* MapKitDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
